@@ -1,0 +1,23 @@
+{
+  "name": "reinaldorti/phptips",
+  "description": "LOGIN SOCIAL VIA FACEBOOK COM OAUTH 2 CLIENT | PHP TIPS #006",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Reinaldo Dorti",
+      "email": "reinaldorti@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Source\\": "source/"
+    },
+    "files": [
+      "source/Config.php"
+    ]
+  },
+  "require": {
+    "league/oauth2-facebook": "2.0.*"
+  }
+}
