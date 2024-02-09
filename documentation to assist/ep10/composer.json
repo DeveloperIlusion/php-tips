@@ -1,0 +1,15 @@
+{
+  "name": "reinaldorti/phptips",
+  "description": "UPLOAD DE IMAGENS E ARQUIVOS COM UPLOADER | PHP TIPS #010",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Reinaldo Dorti",
+      "email": "reinaldorti@gmail.com"
+    }
+  ],
+  "require": {
+    "coffeecode/uploader": "1.0.*"
+  }
+}

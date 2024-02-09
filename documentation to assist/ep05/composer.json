@@ -1,0 +1,28 @@
+{
+  "name": "reinaldorti/phptips005",
+  "description": "GERANDO BLOG COM PAGINAÇÃO DE RESULTADOS | PHP TIPS #005",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Reinaldo Dorti",
+      "email": "reinaldorti@gmail.com"
+    }
+  ],
+  "config": {
+    "vendor-dir": "vendor"
+  },
+  "autoload": {
+    "psr-4": {
+      "Source\\": "source/"
+    },
+    "files": [
+      "source/Config.php"
+    ]
+  },
+  "require": {
+    "fzaninotto/faker": "1.9.*",
+    "coffeecode/datalayer": "1.1.*",
+    "coffeecode/paginator": "1.0.*"
+  }
+}

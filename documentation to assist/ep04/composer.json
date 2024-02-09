@@ -1,0 +1,26 @@
+{
+  "name": "reinaldorti/phptips",
+  "description": "ROTAS, CALL BACKS E ESTRUTURA MVC COM ROUTER | PHP TIPS #004",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Reinaldo Dorti",
+      "email": "reinaldorti@gmail.com"
+    }
+  ],
+  "config": {
+    "vendor-dir": "vendor"
+  },
+  "autoload": {
+    "psr-4": {
+      "Source\\": "source/"
+    },
+    "files": [
+      "source/Config.php"
+    ]
+  },
+  "require": {
+    "coffeecode/router": "1.0.*"
+  }
+}
